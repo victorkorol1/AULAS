@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{   
+    text-align: center;
+    background-image: url(https://lucknowrecreation.com/wp-content/uploads/2018/04/Monthly-Website-Header-background-e1522931579825.jpg);
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    display: block;
+    width: 20%; 
+    padding: 30px;
+
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    border-radius: 10px 0;
+    background-color: rgb(71, 71, 216);
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.navbar ul li a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.content{
+    background-color: #d8d8d8;
+    width: 70%;
+}
+
+.content a img{
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.quemsomos{
+    width: 400px;
+}

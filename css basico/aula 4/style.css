@@ -1,0 +1,13 @@
+body {
+    background: rgb(118, 126, 118);
+}
+
+.branco {
+    color:white
+}
+
+.foto-principal {
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 250px;
+}
